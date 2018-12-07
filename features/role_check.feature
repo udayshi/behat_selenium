@@ -3,7 +3,7 @@ Feature: Checking Role on Bad Database
   Scenario: Checking Super Admin giving superadmin role
     Given I am on "/"
     Then wait "3"
-    When I fill in "userName" with "uday.shiwakoti@mullenlowegroup.com"
+    When I fill in "userName" with "email@email.com"
     Then wait "1"
     When I fill in "password" with "*******"
     Then wait "1"
